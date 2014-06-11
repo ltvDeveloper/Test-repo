@@ -35,4 +35,9 @@
     
     NSLog(@"Test method");
 }
+
+- (void)testMethodTwo {
+    
+    NSLog(@"Test method two");
+}
 @end
