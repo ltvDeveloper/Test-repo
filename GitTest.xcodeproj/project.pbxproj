@@ -21,6 +21,7 @@
 		8B99B4C519486F9E00D1AEB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B99B4A719486F9E00D1AEB3 /* UIKit.framework */; };
 		8B99B4CD19486F9E00D1AEB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B99B4CB19486F9E00D1AEB3 /* InfoPlist.strings */; };
 		8B99B4CF19486F9E00D1AEB3 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B99B4CE19486F9E00D1AEB3 /* GitTestTests.m */; };
+		8B99B4DA1948739100D1AEB3 /* GTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B99B4D91948739100D1AEB3 /* GTTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8B99B4CA19486F9E00D1AEB3 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		8B99B4CC19486F9E00D1AEB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B99B4CE19486F9E00D1AEB3 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		8B99B4D81948739100D1AEB3 /* GTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTTextField.h; sourceTree = "<group>"; };
+		8B99B4D91948739100D1AEB3 /* GTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				8B99B4B219486F9E00D1AEB3 /* GTAppDelegate.h */,
 				8B99B4B319486F9E00D1AEB3 /* GTAppDelegate.m */,
 				8B99B4B519486F9E00D1AEB3 /* Main.storyboard */,
+				8B99B4D81948739100D1AEB3 /* GTTextField.h */,
+				8B99B4D91948739100D1AEB3 /* GTTextField.m */,
 				8B99B4B819486F9E00D1AEB3 /* GTViewController.h */,
 				8B99B4B919486F9E00D1AEB3 /* GTViewController.m */,
 				8B99B4BB19486F9E00D1AEB3 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B99B4DA1948739100D1AEB3 /* GTTextField.m in Sources */,
 				8B99B4B019486F9E00D1AEB3 /* main.m in Sources */,
 				8B99B4BA19486F9E00D1AEB3 /* GTViewController.m in Sources */,
 				8B99B4B419486F9E00D1AEB3 /* GTAppDelegate.m in Sources */,

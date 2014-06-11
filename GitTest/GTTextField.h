@@ -1,5 +1,5 @@
 //
-//  GTViewController.h
+//  GTTextField.h
 //  GitTest
 //
 //  Created by Developer on 6/11/14.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GTViewController : UIViewController
-- (IBAction)onButton:(id)sender;
+@interface GTTextField : UITextField
 
 @end
