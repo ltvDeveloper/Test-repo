@@ -30,4 +30,9 @@
     
     NSLog(@"Click");
 }
+
+- (void)testMethod {
+    
+    NSLog(@"Test method");
+}
 @end
