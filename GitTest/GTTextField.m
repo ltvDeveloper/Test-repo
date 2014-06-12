@@ -22,7 +22,8 @@
 
 
 -(void)theMethod {
-    
+    self.textColor = [UIColor redColor];
+    self.text = @"New text";
 }
 
 

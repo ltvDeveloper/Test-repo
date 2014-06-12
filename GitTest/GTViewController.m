@@ -8,7 +8,10 @@
 
 #import "GTViewController.h"
 
+#import "GTTextField.h"
+
 @interface GTViewController ()
+@property (strong, nonatomic) GTTextField *textField;
 
 @end
 
@@ -28,16 +31,11 @@
 
 - (IBAction)onButton:(id)sender {
     
+    self.textField = [[GTTextField alloc]initWithFrame:CGRectMake(120, 100, 200, 50)];
+    [self.view addSubview:self.textField];
+    [self.textField theMethod];
     NSLog(@"Click");
 }
 
-- (void)testMethod {
-    
-    NSLog(@"Test method");
-}
 
-- (void)testMethodTwo {
-    
-    NSLog(@"Test method two");
-}
 @end

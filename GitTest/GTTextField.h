@@ -10,4 +10,6 @@
 
 @interface GTTextField : UITextField
 
+
+-(void)theMethod;
 @end
