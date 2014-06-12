@@ -37,5 +37,11 @@
     NSLog(@"Click");
 }
 
+- (IBAction)onChangeColorButton:(id)sender {
+    
+    self.textField.textColor = [UIColor blackColor];
+}
+
+
 
 @end

@@ -10,5 +10,6 @@
 
 @interface GTViewController : UIViewController
 - (IBAction)onButton:(id)sender;
+- (IBAction)onChangeColorButton:(id)sender;
 
 @end
