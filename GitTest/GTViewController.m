@@ -42,6 +42,9 @@
     self.textField.textColor = [UIColor blackColor];
 }
 
-
+- (void)method {
+    
+    NSLog(@"Clack");
+}
 
 @end
