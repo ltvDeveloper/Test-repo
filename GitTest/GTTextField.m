@@ -26,6 +26,11 @@
     self.text = @"New text";
 }
 
+- (void)methodTwo {
+    
+    NSLog(@"method");
+}
+
 
 /*
 // Only override drawRect: if you perform custom drawing.
